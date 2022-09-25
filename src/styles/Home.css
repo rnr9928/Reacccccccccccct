@@ -1,0 +1,43 @@
+*{
+  /* background-color: rgb(108, 108, 110); */
+}
+
+.lol img{
+  width: 400px;
+  border-radius: 50%;
+  margin-top: -200px;
+  margin-left: 250px;
+}
+
+.section h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.section p{
+  margin-top: 50px;
+  line-height: 28px;
+  font-weight: 400;
+  color: antiquewhite;
+}
+
+.buy{
+  margin-left: 800px;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  background: var(--primary-color);
+  margin-top: 200px;
+ 
+}
+
+.buy a{
+  color: white;
+  background: var(--primary-color);
+  
+}
