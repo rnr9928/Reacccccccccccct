@@ -7,7 +7,7 @@ import {Container,Row} from "reactstrap"
 
 const nav_link =[
   {
-    path:'home',
+    path:'login',
     display: 'Home'
   },
   {
@@ -19,7 +19,7 @@ const nav_link =[
     display: 'Cart'
   },
   {
-    path:'login',
+    path:'home',
     display: 'Login'
   },
   {

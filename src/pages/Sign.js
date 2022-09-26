@@ -27,10 +27,11 @@ const Sign = () => {
               <FormGroup className='group'>
                   <input type='email' placeholder='이메일'value={email} onChange={e=>setEmail(e.target.value)} />
               </FormGroup>
-
+<Link to='/home'>
               <button type='submit' className='a_btn'>회원가입하기</button>
+              </Link>
               <p>아이디가 있나요?{""}
-              <Link to='/login'>로그인 하기</Link></p>
+              <Link to='/home'>로그인 하기</Link></p>
             </Form>
           </Col>
         </Row>
