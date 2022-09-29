@@ -1,13 +1,17 @@
-
+/* eslint-disable */
+import { useState } from 'react';
 import './App.css';
-import Layout from './com/Layout/Layout';
+import {Count,CountView} from './com';
 
 function App() {
-  return <Layout/>
+  const [count,setCount] = useState(0);
+  return (
+    <div className="App">
+     <CountView count={count} /> 
+     <Count count={count} setCount={setCount} />
+    
+    </div>
+  );
 }
 
 export default App;
-
-
-// 설치할것들
-// npm install --save reactstrap  , npm i bootstrap@5.2.1
